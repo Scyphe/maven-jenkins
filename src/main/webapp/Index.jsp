@@ -17,6 +17,8 @@
 <%@include file="component/navbar.jsp" %>
 
 
+
+
 <%
 String sucMsg=(String)session.getAttribute("sucMsg");
 if(sucMsg !=null){

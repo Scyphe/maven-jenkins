@@ -14,11 +14,11 @@ public class Entity {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getAdd_task() {
-		return Add_task;
+	public String gettask() {
+		return task;
 	}
-	public void setAdd_task(String add_task) {
-		Add_task = add_task;
+	public void settask(String task) {
+		this.task = task;
 	}
 	public String getStatus() {
 		return status;
@@ -29,11 +29,11 @@ public class Entity {
 	
 		@Override
 	public String toString() {
-		return "Entity [id=" + id + ", name=" + name + ", Add_task=" + Add_task + ", status=" + status + "]";
+		return "Entity [id=" + id + ", name=" + name + ", task=" + task + ", status=" + status + "]";
 	}
 
 		private int id;
 		private String name;
-		private String Add_task;
+		private String task;
 		private String status;
 }
