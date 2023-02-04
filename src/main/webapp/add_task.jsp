@@ -15,14 +15,14 @@
 <div class="card">
 <div class="card-body">
 <h3 class="text-center text-success">Add Tasks</h3>
-<form action="" method="post">
+<form action="add_task" method="post">
   <div class="form-group">
     <label for="exampleInputEmail1">Name</label>
     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="username">
   </div>
   <div class="form-group">
     <label for="exampleInputEmail1">Tasks</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="tasks">
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="task">
   </div>
 <div class="form-group">
       <label for="inputState">Status</label>
@@ -34,7 +34,7 @@
     </div>
   
   <div class="text-center">
-  <a href="Index.jsp" class="btn btn-sm btn-primary">ADD TASK</a>
+   <button type="submit" class="btn btn-primary">ADD TASK</button>
   
   </div>
   
