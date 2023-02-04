@@ -8,7 +8,7 @@ public class DBConnect {
 
 	private static Connection conn;
 	
-	public static Connection getConn()1
+	public static Connection getConn()
 	{
 		try {
 			
