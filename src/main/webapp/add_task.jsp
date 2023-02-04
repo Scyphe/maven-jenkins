@@ -34,7 +34,7 @@
     </div>
   
   <div class="text-center">
-   <button type="submit" class="btn btn-primary">ADD TASK</button>
+   <a href="added.jsp" class="btn btn-primary">ADD TASK</a>
   
   </div>
   

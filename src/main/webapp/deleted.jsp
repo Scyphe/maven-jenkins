@@ -16,30 +16,6 @@
 <body>
 <%@include file="component/navbar.jsp" %>
 
-
-
-
-<%
-String sucMsg=(String)session.getAttribute("sucMsg");
-if(sucMsg !=null){
-%>
-	<div class="alert alert-success" role="alert"><%=sucMsg %></div>
-<%
-session.removeAttribute("sucMsg");
-}
-%>
-
-<%
-String failedMsg=(String)session.getAttribute("failMsg");
-if(failedMsg !=null){
-%>
-	<div class="alert alert-danger" role="alert"><%=failedMsg %></div>
-<%
-session.removeAttribute("failedMsg");
-}
-%>
-
-
         <h1 class="text-center text success">Future Tasks</h1>
 
         <div class="container">
@@ -64,7 +40,7 @@ session.removeAttribute("failedMsg");
       <td>**</td>
       <td>
       <a href="edit.jsp" class="btn btn-sm btn-success">Edit</a>
-      <a href="deleted.jsp" class="btn btn-sm btn-danger">Delete</a>
+      <a href="" class="btn btn-sm btn-danger">Delete</a>
       </td>
     </tr>
     <tr>
@@ -75,7 +51,7 @@ session.removeAttribute("failedMsg");
       <td>**</td>
       <td>
       <a href="edit.jsp" class="btn btn-sm btn-success">Edit</a>
-      <a href="deleted.jsp" class="btn btn-sm btn-danger">Delete</a>
+      <a href="" class="btn btn-sm btn-danger">Delete</a>
       </td>
     </tr>
     <tr>
@@ -86,9 +62,10 @@ session.removeAttribute("failedMsg");
       <td>**</td>
       <td>
       <a href="edit.jsp" class="btn btn-sm btn-success">Edit</a>
-      <a href="deleted.jsp" class="btn btn-sm btn-danger">Delete</a>
+      <a href="" class="btn btn-sm btn-danger">Delete</a>
       </td>
     </tr>
+
 
   </tbody>
 </table>

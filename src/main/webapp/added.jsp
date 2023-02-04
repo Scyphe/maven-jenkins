@@ -89,6 +89,17 @@ session.removeAttribute("failedMsg");
       <a href="deleted.jsp" class="btn btn-sm btn-danger">Delete</a>
       </td>
     </tr>
+    <tr>
+      <th scope="row">4</th>
+      <th scope="col">John</th>
+      <td>SAVE MONEY $1000</td>
+      <td>Pending</td>
+      <td>*</td>
+      <td>
+      <a href="edit.jsp" class="btn btn-sm btn-success">Edit</a>
+      <a href="deleted.jsp" class="btn btn-sm btn-danger">Delete</a>
+      </td>
+    </tr>
 
   </tbody>
 </table>

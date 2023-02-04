@@ -51,7 +51,7 @@
       </div>
 
   <div class="text-center">
-  <a href="Index.jsp" class="btn btn-sm btn-primary">SAVE EDITED TASK</a>
+  <a href="edited.jsp" class="btn btn-sm btn-primary">SAVE EDITED TASK</a>
   </div>
 
 </form>
