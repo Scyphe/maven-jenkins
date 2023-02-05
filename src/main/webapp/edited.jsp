@@ -40,7 +40,7 @@
       <td>**</td>
       <td>
       <a href="edit.jsp" class="btn btn-sm btn-success">Edit</a>
-      <a href="" class="btn btn-sm btn-danger">Delete</a>
+      <a href="deleted.jsp" class="btn btn-sm btn-danger">Delete</a>
       </td>
     </tr>
     <tr>
@@ -51,7 +51,7 @@
       <td>**</td>
       <td>
       <a href="edit.jsp" class="btn btn-sm btn-success">Edit</a>
-      <a href="" class="btn btn-sm btn-danger">Delete</a>
+      <a href="deleted.jsp" class="btn btn-sm btn-danger">Delete</a>
       </td>
     </tr>
     <tr>
@@ -62,7 +62,7 @@
       <td>**</td>
       <td>
       <a href="edit.jsp" class="btn btn-sm btn-success">Edit</a>
-      <a href="" class="btn btn-sm btn-danger">Delete</a>
+      <a href="deleted.jsp" class="btn btn-sm btn-danger">Delete</a>
       </td>
     </tr>
     <tr>

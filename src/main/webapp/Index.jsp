@@ -16,7 +16,10 @@
 <body>
 <%@include file="component/navbar.jsp" %>
 
-
+<%
+Connection conn=DBConnect.getConn();
+out.print(conn);
+%>
 
 
 <%
